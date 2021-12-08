@@ -1,0 +1,76 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/pizzafux/eth/forge_playground/src/Contract.sol": {
+      "lastModificationDate": 1639004733042,
+      "contentHash": "4b89104378c0ef1ff2debdc16dfd8f3c",
+      "sourceName": "src/Contract.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "istanbul"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Contract",
+        "Foo"
+      ]
+    },
+    "/Users/pizzafux/eth/forge_playground/src/test/Contract.t.sol": {
+      "lastModificationDate": 1639005047393,
+      "contentHash": "be7ea506f52826cc444be645cb28d3fd",
+      "sourceName": "src/test/Contract.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "istanbul"
+        }
+      },
+      "imports": [
+        "src/Contract.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "FooTest"
+      ]
+    }
+  }
+}
